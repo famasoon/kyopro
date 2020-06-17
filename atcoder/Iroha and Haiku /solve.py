@@ -1,12 +1,6 @@
-N = int(input())
-K = int(input())
-X = int(input())
-Y = int(input())
-
-if N > K:
-    total = K * X
-    total += (N - K) * Y
+iroha = list(input().split())
+if iroha.count('5') == 2:
+    if iroha.count('7') == 1:
+        print('YES')
 else:
-    total = N * X
-
-print(total)
+    print('NO')
